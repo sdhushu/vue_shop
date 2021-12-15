@@ -84,6 +84,7 @@ export default {
   },
   created () {
     this.getMenuList()
+    console.log(this.menulist)
     this.activePath = window.sessionStorage.getItem('activePath')
   },
   methods: {
